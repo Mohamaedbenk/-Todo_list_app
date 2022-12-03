@@ -31,7 +31,12 @@
     </div>
     <div class="list_of_todos">
       <ul class="list_of_todos" id="list_of_todos">
-        <li class="todo_">
+        <li class="todo_li">
+          <input type="checkbox" name="check_todo" id="check_todo">
+          <p class="todo_content">Jag around the park 3x</p>
+          <img src="/images/icon-cross.svg" alt="" class="remove_todo" id="remove_todo">
+        </li>
+        <li class="todo_li">
           <div class="todo_state">
             <h4 class="items_left">5 items left</h4>
             <h4 class="clear_completed">Clear Completed</h4>
@@ -39,26 +44,16 @@
         </li>
       </ul>
     </div>
+    <div class="filters">
+      <h3>All</h3>
+      <h3>Active</h3>
+      <h3>Completed</h3>
+    </div>
   </main>
-
-
-<!--
-  Todo
-
-   Add dynamic number  items left
-
-  All
-  Active 
-  Completed
-
-  Clear Completed
-
-  Drag and drop to reorder list
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
--->
+  <footer>
+    <p class="footer">
+      Drag and drop to reorder list
+    </p>
+  </footer>
 </body>
 </html>
